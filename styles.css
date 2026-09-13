@@ -23,7 +23,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Inter, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--ink);
   background: var(--paper);
 }
@@ -866,4 +866,170 @@ h3 {
   color: var(--amber);
   font-weight: 600;
   line-height: 1.5;
+}
+
+/* ================================
+   CLARE-MAR LEGAL / BOOKING UPDATES
+   ================================ */
+
+.booking-small-print {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.consent-field {
+  display: grid !important;
+  grid-template-columns: 22px 1fr;
+  align-items: start;
+  gap: 10px !important;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f7f9f7;
+  font-weight: 500 !important;
+  line-height: 1.5;
+}
+
+.consent-field input {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+}
+
+.consent-field a,
+.legal-content a,
+.site-footer a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-section {
+  padding: clamp(68px, 9vw, 112px) clamp(20px, 6vw, 78px);
+  background: #eef2f1;
+}
+
+.legal-section .section-heading p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.legal-card {
+  max-width: 1080px;
+  margin: 0 0 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 8px 24px rgba(19, 32, 31, 0.05);
+}
+
+.legal-card summary {
+  padding: 20px 22px;
+  color: var(--blue);
+  cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.legal-card[open] summary {
+  border-bottom: 1px solid var(--line);
+  background: #f7f9f7;
+}
+
+.legal-content {
+  padding: 24px 22px 28px;
+}
+
+.legal-content h3 {
+  margin-top: 26px;
+  color: var(--blue);
+}
+
+.legal-content h3:first-child {
+  margin-top: 0;
+}
+
+.legal-content p {
+  max-width: 920px;
+  color: #354341;
+  line-height: 1.7;
+}
+
+.legal-content code {
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: #eef2f1;
+}
+
+.cancellation-form {
+  max-width: 760px;
+  padding: 18px;
+  border: 1px dashed #9aaba8;
+  border-radius: 8px;
+  background: #fbfcfb;
+}
+
+.cancellation-form p {
+  margin: 7px 0;
+}
+
+.legal-updated {
+  margin-top: 28px;
+  font-size: 0.82rem;
+  color: var(--muted) !important;
+}
+
+.site-footer {
+  align-items: flex-start;
+}
+
+.footer-brand,
+.footer-legal {
+  display: grid;
+  gap: 6px;
+  max-width: 48%;
+  line-height: 1.45;
+}
+
+.footer-brand strong,
+.footer-legal strong {
+  color: var(--white);
+}
+
+.footer-legal {
+  text-align: right;
+  font-size: 0.86rem;
+}
+
+@media (max-width: 920px) {
+  .brand small {
+    max-width: 230px;
+  }
+
+  .footer-brand,
+  .footer-legal {
+    max-width: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .consent-field {
+    grid-template-columns: 22px 1fr;
+  }
+
+  .legal-section {
+    padding: 58px 18px;
+  }
+
+  .footer-brand,
+  .footer-legal {
+    max-width: none;
+    text-align: left;
+  }
+
+  .footer-legal {
+    margin-top: 18px;
+  }
 }
