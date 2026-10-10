@@ -1033,3 +1033,15 @@ h3 {
     margin-top: 18px;
   }
 }
+
+/* Claire and Martin's advertising cartoon */
+.team-section { background: var(--white); scroll-margin-top: 100px; }
+.team-section .section-heading p:last-child { max-width: 780px; color: var(--muted); line-height: 1.7; }
+.team-cartoon { max-width: 1100px; margin: 0 auto; }
+.team-cartoon > a { display: block; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); }
+.team-cartoon img { display: block; width: 100%; height: auto; }
+.team-cartoon a:focus-visible, .cartoon-dialogue summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
+.team-cartoon figcaption { margin-top: 16px; text-align: center; color: var(--muted); line-height: 1.6; }
+.team-cartoon figcaption a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.cartoon-dialogue { max-width: 1100px; margin: 20px auto 0; color: var(--muted); line-height: 1.6; }
+.cartoon-dialogue summary { cursor: pointer; color: var(--blue); font-weight: 700; }
