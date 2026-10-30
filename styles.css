@@ -89,6 +89,7 @@ a {
 .call-button,
 .primary-action,
 .secondary-action,
+.whatsapp-action,
 .booking-form button {
   display: inline-flex;
   min-height: 46px;
@@ -218,6 +219,12 @@ h3 {
   padding: 0 22px;
   color: var(--white);
   border: 1px solid rgba(255, 255, 255, 0.44);
+}
+
+.whatsapp-action {
+  padding: 0 22px;
+  color: #082b18;
+  background: #25d366;
 }
 
 .quick-strip {
@@ -477,7 +484,8 @@ h3 {
 }
 
 .phone-link,
-.email-link {
+.email-link,
+.whatsapp-link {
   display: inline-block;
   margin-top: 14px;
   color: var(--amber);
@@ -492,6 +500,17 @@ h3 {
   display: block;
   color: var(--white);
   font-size: 1.08rem;
+}
+
+.whatsapp-link {
+  display: block;
+  width: fit-content;
+  margin-top: 16px;
+  padding: 11px 15px;
+  border-radius: 8px;
+  color: #082b18;
+  background: #25d366;
+  font-weight: 800;
 }
 
 .booking-form {
