@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CLARE-MAR">
+  <rect width="64" height="64" rx="12" fill="#05295f"/>
+  <path d="M8 48 24 16h8L20 48zm24 0 12-32h8L56 48h-8l-1-10h-8l-3 10zm10-18h5l-1-8z" fill="#ffd316"/>
+  <text x="8" y="58" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700">CLARE-MAR</text>
+</svg>
