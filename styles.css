@@ -265,6 +265,11 @@ h3 {
   margin-bottom: 34px;
 }
 
+/* Amber is reserved for dark backgrounds; blue keeps headings readable on light sections. */
+.section-heading .eyebrow {
+  color: var(--blue);
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
